@@ -1,0 +1,541 @@
+h1, h2, h3, li, ul, p, a, img{
+   margin: 0;
+   padding: 0;
+}
+a{
+   line-height: 0;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+.overflow{
+   overflow: hidden;
+}
+
+
+
+
+.hero {
+   width: 480px;
+   height: 100vh;
+   margin: 0 auto;
+   background-color: #FAF6F3;
+   padding-top: 50px;
+}
+.hero-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.hero-date {
+   font-family: "Cormorant Infant", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color: #776d40;
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+.hero-image {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 60px;
+}
+.hero-subtitle{
+   font-family: "Mrs Saint Delafield", cursive;
+   font-weight: 400;
+   font-style: normal;
+   color: #776d40;
+   text-align: center;
+   font-size: 70px;
+   margin-bottom: 10px;
+}
+.hero-line{
+   width: 400px;
+   margin: 0 auto;
+   border-top: 1px solid #776d40;
+}
+
+
+
+
+.invitation {
+   width: 480px;
+   margin: 0 auto;
+   background-color: #EEEBDE;
+   padding-top: 100px;
+}
+.invitation-title {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #776d40;
+   margin-bottom: 20px;
+}
+.invitation-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #776d40;
+   margin-bottom: 40px;
+}
+.decor{
+   display: block;
+   margin: 0 auto;
+   opacity: 15%;
+   margin-bottom: 20px;
+}
+.invitation-bible-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #776d40;
+   padding-top: 20px;
+   margin-bottom: 50px;
+}
+.invitation-foto{
+   display: block;
+   opacity: 80%;
+}
+
+
+
+.taming {
+   width: 480px;
+   margin: 0 auto;
+   background-color: #FAF6F3;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.taming-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.taming-subtitle {
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: right;
+   font-size: 30px;
+   color: #776d40;
+   padding-right: 50px;
+   margin-bottom: 50px;
+}
+.taming-wrapper {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 85px;
+   padding-right: 85px;
+}
+.taming-dates-list {
+   list-style-type: none;
+}
+.taming-dates-item {
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 40px;
+   color: #776d40;
+}
+.taming-line{
+   border-left: 1px solid #776d40;
+   height: 230px;
+}
+.taming-text-list {
+   list-style-type: none;
+}
+.taming-text-item {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: left;
+   font-size: 25px;
+   color: #776d40;
+   line-height: 1.8em;
+}
+
+
+.location {
+   width: 480px;
+   margin: 0 auto;
+   background-color: #EEEBDE;
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.location-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.location-subtitle {
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: right;
+   font-size: 30px;
+   color: #776d40;
+   padding-right: 50px;
+   margin-bottom: 50px;
+}
+.location-image {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   opacity: 15%;
+}
+.location-text {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 20px;
+   color: #776d40;
+   margin-bottom: 20px;
+}
+.location-button {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   width: 200px;
+
+   text-align: center;
+   text-decoration: none;
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   color: #776d40;
+
+   padding: 20px 0 20px 0;
+   border: 1px solid #776d40;
+   border-radius: 15px;
+   background-color: transparent;
+}
+
+
+
+.dresscode {
+   width: 480px;
+   margin: 0 auto;
+   background-color: #FAF6F3;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.dresscode-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.dresscode-subtitle {
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: right;
+   font-size: 30px;
+   color: #776d40;
+   padding-right: 70px;
+   margin-bottom: 50px;
+}
+.dresscode-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #776d40;
+   margin-bottom: 50px;
+}
+.dresscode-list {
+   display: flex;
+   list-style-type: none;
+   width: 440px;
+   margin: 0 auto;
+   gap: 5px;
+
+}
+.dresscode-item {
+   width: 58px;
+   height: 100px;
+   background-color: #453020;
+}
+.dresscode-item:nth-child(1){
+   background-color: #EBE0C0;
+}
+.dresscode-item:nth-child(2){
+   background-color: #C7B4A3;
+}
+.dresscode-item:nth-child(3){
+   background-color: #E3CFD1;
+}
+.dresscode-item:nth-child(4){
+   background-color: #EEEBDE;
+}
+.dresscode-item:nth-child(5){
+   background-color: #BEC5CF;
+}
+.dresscode-item:nth-child(6){
+   background-color: #B6C2B4;
+}
+.dresscode-item:nth-child(7){
+   background-color: #D7D6D2;
+}
+
+
+
+
+.details {
+   width: 480px;
+   margin: 0 auto;
+   background-color: #FAF6F3;
+   padding-top: 20px;
+   padding-bottom: 100px;
+}
+.details-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.details-subtitle {
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: right;
+   font-size: 30px;
+   color: #776d40;
+   padding-right: 120px;
+   margin-bottom: 50px;
+}
+.details-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #776d40;
+   margin-bottom: 50px;
+}
+.details-icon{
+   display: block;
+   margin: 0 auto;
+   opacity: 30%;
+}
+
+
+
+.hands-wrapper{
+   width: 480px;
+   margin: 0 auto;
+   background-color: #EEEBDE;
+}
+.hands-image{
+   display: block;
+   opacity: 80%;
+}
+
+
+
+.registration {
+   width: 480px;
+   margin: 0 auto;
+   padding: 100px 50px 50px 50px;
+   background-color: #EEEBDE;
+}
+.registration-title {
+   font-family: "Bodoni Moda", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #776d40;
+}
+.registration-subtitle{
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: right;
+   font-size: 30px;
+   color: #776d40;
+   padding-right: 30px;
+   margin-bottom: 40px;
+}
+.registration-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: #776d40;
+   margin-bottom: 30px;
+}
+
+.registration-form {
+   margin-bottom: 80px;
+}
+.form-field {
+   margin-bottom: 15px;
+}
+.form-input {
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid #776d40;
+   padding: 2px 15px;
+   outline: none;
+   background-color: transparent;
+}
+.form-input::placeholder{
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color: #776d40;
+
+}
+.checkbox-label {
+   display: flex;
+   align-items: center;
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   color: #776d40;
+   margin-bottom: 15px;
+}
+.checkbox-input:checked + .custom-checkbox > .checkbox-icon{
+   display: block;
+}
+.custom-checkbox{
+   position: relative;
+   display: block;
+   width: 30px;
+   height: 30px;
+   border: 1px solid #776d40;
+   margin-right: 15px;
+}
+.checkbox-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   width: 15px;
+   height: 15px;
+   background-color: #776d40;
+   border-radius: 2px;
+}
+
+.registration-btn {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 17px;
+   color: white;
+   text-transform: uppercase;
+
+   width: 100%;
+   height: 50px;
+   border: 2px solid #776d40;
+   background-color: #776d40;
+}
+.registration-bottom-text{
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: #776d40;
+
+   margin-top: 50px;
+}
+
+
+
+
+
+
+footer{
+   width: 480px;
+   margin: 0 auto;
+   background-color: #776d40;
+}
+.footer-link{
+   text-decoration: none;
+}
+.footer-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding: 10px 0;
+}
+.footer-text {
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13px;
+   color: white;
+   text-align: center;
+   margin-right: 15px;
+}
+.footer-icon {
+   display: block;
+}
+
