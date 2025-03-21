@@ -25,12 +25,13 @@ a{
 
 
 
+
 .hero {
    width: 480px;
    height: 100vh;
    margin: 0 auto;
-   background-color: white;
-   padding-top: 80px;
+   background-color: #FAF6F3;
+   padding-top: 50px;
 }
 .hero-image {
    display: block;
@@ -44,9 +45,16 @@ a{
    color: black;
    text-align: center;
    font-size: 70px;
-   margin-bottom: 10px;
 }
-
+.hero-bible-text {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: black;
+}
 
 
 
@@ -54,8 +62,9 @@ a{
 .invitation {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
+   background-color: #FAF6F3;
    padding-top: 100px;
+   padding-bottom: 100px;
 }
 .invitation-title {
    font-family: "Source Serif 4", serif;
@@ -82,19 +91,8 @@ a{
    display: block;
    margin: 0 auto;
    opacity: 15%;
-   margin-bottom: 20px;
 }
-.invitation-bible-text {
-   font-family: "Source Serif 4", serif;
-   font-optical-sizing: auto;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 20px;
-   text-align: center;
-   color: black;
-   padding-top: 20px;
-   margin-bottom: 50px;
-}
+
 .invitation-foto{
    display: block;
 }
@@ -104,8 +102,9 @@ a{
 .date {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
-   padding-top: 150px;
+   background-color: #EFF0EA;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 .date-title {
    font-family: "Bodoni Moda", serif;
@@ -143,8 +142,8 @@ a{
 .taming {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
-   padding-top: 150px;
+   background-color: #FAF6F3;
+   padding-top: 100px;
    padding-bottom: 100px;
 }
 .taming-title {
@@ -207,9 +206,9 @@ a{
 .location {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
-   padding-top: 50px;
-   padding-bottom: 30px;
+   background-color: #FAF6F3;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 .location-title {
    font-family: "Bodoni Moda", serif;
@@ -274,7 +273,7 @@ a{
 .dresscode {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
+   background-color: #FAF6F3;
    padding-top: 100px;
    padding-bottom: 100px;
 }
@@ -308,49 +307,24 @@ a{
    color: black;
    margin-bottom: 50px;
 }
-.dresscode-list {
+
+.dresscode-palette{
    display: flex;
-   list-style-type: none;
-   width: 440px;
+   width: 350px;
    margin: 0 auto;
-   gap: 5px;
-
 }
-.dresscode-item {
-   width: 58px;
-   height: 100px;
-   background-color: #453020;
+.dresscode-palette-img{
+   display: block;
+   width: 70px;
 }
-.dresscode-item:nth-child(1){
-   background-color: #EBE0C0;
-}
-.dresscode-item:nth-child(2){
-   background-color: #C7B4A3;
-}
-.dresscode-item:nth-child(3){
-   background-color: #E3CFD1;
-}
-.dresscode-item:nth-child(4){
-   background-color: #EEEBDE;
-}
-.dresscode-item:nth-child(5){
-   background-color: #BEC5CF;
-}
-.dresscode-item:nth-child(6){
-   background-color: #B6C2B4;
-}
-.dresscode-item:nth-child(7){
-   background-color: #D7D6D2;
-}
-
 
 
 
 .details {
    width: 480px;
    margin: 0 auto;
-   background-color: white;
-   padding-top: 20px;
+   background-color: #FAF6F3;
+   padding-top: 100px;
    padding-bottom: 100px;
 }
 .details-title {
@@ -406,8 +380,8 @@ a{
 .registration {
    width: 480px;
    margin: 0 auto;
-   padding: 100px 50px 50px 50px;
-   background-color: white;
+   padding: 100px 50px 100px 50px;
+   background-color: #EFF0EA;
 }
 .registration-title {
    font-family: "Bodoni Moda", serif;
